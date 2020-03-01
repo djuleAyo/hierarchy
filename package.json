@@ -1,12 +1,18 @@
 {
   "name": "@djuleayo/hierarchy",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Implementation of hierarchy structure in js. Gives abstraction and operations for tasks with hierarchies.",
   "main": "Hierarchy.js",
   "scripts": {
     "test": "find ./ -name '*.test.ts' | xargs nyc mocha -r ts-node/register --reporter=nyan"
   },
-  "keywords": ["hierarchy", "composite", "composite pattern", "tree", "tree structure"],
+  "keywords": [
+    "hierarchy",
+    "composite",
+    "composite pattern",
+    "tree",
+    "tree structure"
+  ],
   "author": "Andrej Jovanovic (djuleayo) djuleayo@gmail.com",
   "license": "ISC",
   "types": "dist/index.d.ts",
