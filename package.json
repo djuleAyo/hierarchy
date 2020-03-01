@@ -6,7 +6,7 @@
   "scripts": {
     "test": "find ./ -name '*.test.ts' | xargs nyc mocha -r ts-node/register --reporter=nyan"
   },
-  "keywords": [],
+  "keywords": ["hierarchy", "composite", "composite pattern", "tree", "tree structure"],
   "author": "Andrej Jovanovic (djuleayo) djuleayo@gmail.com",
   "license": "ISC",
   "types": "dist/index.d.ts",
