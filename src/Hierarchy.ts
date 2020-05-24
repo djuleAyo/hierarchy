@@ -7,7 +7,12 @@ type HierarchyMarker = (h: Hierarchy) => boolean;
 
 
 /**
- * Describes Hierarchies on abstract level. May be used as any hierarchy.
+ * Physical implementation of tree structure - hierarchy. This provides
+ * unified interface and aditional benefits over objects used as hierarchies.
+ * Any node may contain an object so it may be used as object object map
+ * but nested to abtitrary depth and still provide all tree like operations on
+ * such a structure. It can be used as a simpler mark (string) and descendants
+ * structure and provide standardized inteface for hierarchy manipulations.
  */
 export class Hierarchy{
     constructor(
