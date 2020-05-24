@@ -1,6 +1,6 @@
 {
   "name": "@djuleayo/hierarchy",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Implementation of hierarchy structure in js. Gives abstraction and operations for tasks with hierarchies.",
   "main": "Hierarchy.js",
   "scripts": {
